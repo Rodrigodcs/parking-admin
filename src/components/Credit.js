@@ -3,7 +3,7 @@ import {useState} from "react"
 import axios from "axios"
 
 export default function Credit() {
-  const [valor,setValor]= useState(0)
+  const [valor,setValor]= useState("")
   const [error,setError] = useState("")
   const [sucess,setSucess] = useState("")
 
@@ -61,16 +61,9 @@ const Container = styled.div`
     button{
         width: 100px;
         height: 30px;
-    }
-    .cor{
-        display: flex;
-        align-items: center;
-        gap:5px;
-    }
-    .radio{
-        display: flex;
-        align-items: center;
-        gap:15px;
+        background-color: #464F33;
+        cursor: pointer;
+        color:white;
     }
     .error{
         color:red;
@@ -80,4 +73,12 @@ const Container = styled.div`
         color:green;
         font-size: 15px;
     }
+    input{
+        height: 25px;
+        padding-left: 5px;
+        background-color: #f7f4cf;
+        outline: none;
+        border-radius: 5px;
+    }
+
 `;

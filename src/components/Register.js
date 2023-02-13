@@ -29,7 +29,7 @@ export default function Register() {
             setError(e.response.data)
         })
     }
-    console.log(type)
+    console.log(color)
   return (
       <Container>
         <div className="title">REGISTRAR CLIENTE</div>
@@ -83,6 +83,9 @@ const Container = styled.div`
     button{
         width: 100px;
         height: 30px;
+        background-color: #464F33;
+        cursor: pointer;
+        color:white;
     }
     .cor{
         display: flex;
@@ -101,5 +104,12 @@ const Container = styled.div`
     .sucess{
         color:green;
         font-size: 15px;
+    }
+    input{
+        height: 25px;
+        padding-left: 5px;
+        background-color: #f7f4cf;
+        outline: none;
+        border-radius: 5px;
     }
 `;
