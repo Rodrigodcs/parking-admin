@@ -75,7 +75,7 @@ const Container = styled.div`
     width:300px;
     padding-bottom: 10px;
     border-radius: 10px;
-    background-color:#F4D525;
+    background-color:#F0DB70;
     display:flex;
     flex-direction: column;
     align-items: center;

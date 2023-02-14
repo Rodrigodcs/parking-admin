@@ -62,7 +62,7 @@ const Container = styled.div`
     width:300px;
     padding-bottom: 10px;
     border-radius: 10px;
-    background-color:#F4D525;
+    background-color:#F0DB70;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -90,12 +90,23 @@ const Container = styled.div`
     .cor{
         display: flex;
         align-items: center;
-        gap:5px;
+        gap:10px;
+        input{
+            background-color: #f7f4cf;
+            width: 60px;
+            height: 30px;
+            padding:1px;
+        }
     }
     .radio{
         display: flex;
         align-items: center;
         gap:15px;
+        div{
+            display: flex;
+            align-items: center;
+            gap:5px;
+        }
     }
     .error{
         color:red;

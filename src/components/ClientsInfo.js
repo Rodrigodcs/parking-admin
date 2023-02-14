@@ -1,8 +1,7 @@
-import styled from "styled-components";
 import {useEffect} from "react"
 import axios from "axios"
 
-export default function Info({cardSucess,cardError}) {
+export default function ClientsInfo({cardSucess,cardError}) {
     
       useEffect(() => {
           const search = setInterval(() => getInfo(),3000)

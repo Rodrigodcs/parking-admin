@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Login from "./Login"
 
-export default function AdminScreen() {
+export default function LoginScreen() {
   return (
     <>
         <Header/>
